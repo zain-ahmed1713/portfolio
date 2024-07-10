@@ -28,7 +28,7 @@ export default {
       },
     },
     fontFamily: {
-      'neueHaas': 'Neue Haas Grotesk Display Pro'
+      'roboto': 'Roboto'
     },
   },
   plugins: [],
