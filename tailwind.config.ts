@@ -23,6 +23,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        'greenShadow': '0px 3px 22px 1px rgba(46,89,49,1);',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
