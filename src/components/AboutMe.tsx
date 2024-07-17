@@ -8,7 +8,7 @@ import { FaGithubSquare } from "react-icons/fa";
 
 const AboutMe = () => {
   return (
-    <div className="bg-[#000000] p-10 h-[100vh] md:p-20">
+    <div className="bg-[#000000] p-10 h-[100vh] md:p-20" id="about-me">
       <h2 className="text-white text-center text-3xl font-bold mb-6 md:text-4xl lg:text-5xl lg:text-center lg:mb-8">
         About Me
       </h2>
