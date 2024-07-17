@@ -32,18 +32,21 @@ const AboutMe = () => {
         <div className="text-white text-lg flex justify-center gap-2 md:text-xl lg:text-2xl">
           <Link
             href={"mailto:zainahmed1713@gmail.com"}
+            target="_blank"
             className="hover:scale-110"
           >
             <FaEnvelope />
           </Link>
           <Link
             href={"https://www.linkedin.com/in/zain-ahmed-1ba904287/"}
+            target="_blank"
             className="hover:scale-110"
           >
             <FaLinkedin />
           </Link>
           <Link
             href={"https://www.github.com/zainahmed1713/"}
+            target="_blank"
             className="hover:scale-110"
           >
             <FaGithubSquare />
