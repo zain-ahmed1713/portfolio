@@ -45,7 +45,7 @@ const AboutMe = () => {
             <FaLinkedin />
           </Link>
           <Link
-            href={"https://www.github.com/zainahmed1713/"}
+            href={"https://www.github.com/zain-ahmed1713/"}
             target="_blank"
             className="hover:scale-110"
           >
