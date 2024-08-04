@@ -6,8 +6,7 @@ import { client, sanityFetch } from "@/sanity/client";
 import { StickyScroll } from "./ui/sticky-scroll-reveal";
 import Image from "next/image";
 
-const SKILLS_QUERY = `*[
-  _type == "skills"]{_id, name, detail, image}`;
+const SKILLS_QUERY = `*[_type == "skills"]{_id, name, detail, image, createdAt} | order(createdAt asc)`;
 
 const { projectId, dataset } = client.config();
 const urlFor = (source: SanityImageSource) =>
